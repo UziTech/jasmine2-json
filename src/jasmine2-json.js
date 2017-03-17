@@ -1,5 +1,7 @@
 "use strict";
 
+require("./polyfills");
+
 (function (global) {
 
 	if (!global.jasmine) {
