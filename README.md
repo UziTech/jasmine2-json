@@ -3,6 +3,8 @@
 
 # Jasmine 2.x Json
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/UziTech/jasmine2-json.svg)](https://greenkeeper.io/)
+
 This is similar to [jasmine-json](https://github.com/atom/jasmine-json) except it is for Jasmine 2.x
 
 # toEqualJson matcher
