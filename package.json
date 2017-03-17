@@ -1,0 +1,25 @@
+{
+  "name": "jasmine2-json",
+  "version": "0.0.0",
+  "description": "Add toEqualJson matcher to Jasmine 2.x",
+  "repository": "https://github.com/UziTech/jasmine2-json",
+  "main": "src/jasmine2-json.js",
+  "scripts": {
+    "test": "jasmine ./spec/*-spec.js",
+    "release": "test-tag-publish",
+    "release:patch": "test-tag-publish patch",
+    "release:minor": "test-tag-publish minor",
+    "release:major": "test-tag-publish major"
+  },
+  "keywords": [
+    "jasmine",
+    "json"
+  ],
+  "author": "Tony Brix",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "jasmine-should-fail": "^1.0.1",
+    "test-tag-publish": "^1.0.0"
+  }
+}
