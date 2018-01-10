@@ -20,7 +20,7 @@
   "devDependencies": {
     "jasmine": "^2.5.3",
     "jasmine-should-fail": "^1.0.1",
-    "test-tag-publish": "^1.0.0"
+    "test-tag-publish": "*"
   },
   "peerDependencies": {
     "jasmine": "2.x"
