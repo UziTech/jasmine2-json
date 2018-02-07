@@ -86,6 +86,7 @@ require("./polyfills");
 					compare: function (actual, expected) {
 						var result = {};
 
+						failures = {};
 						compare([], actual, expected);
 						var failedPaths = Object.keys(failures);
 						result.pass = (failedPaths.length === 0);
