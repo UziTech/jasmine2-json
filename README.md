@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/UziTech/jasmine2-json.png)](https://travis-ci.org/UziTech/jasmine2-json)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/mw8f1emvmd543jid?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-json)
 
-# Jasmine 2.x Json
+# Jasmine 2.x-3.x Json
 
-This is similar to [jasmine-json](https://github.com/atom/jasmine-json) except it is for Jasmine 2.x
+This is similar to [jasmine-json](https://github.com/atom/jasmine-json) except it works with Jasmine 2.x or 3.x
 
 # toEqualJson matcher
 
