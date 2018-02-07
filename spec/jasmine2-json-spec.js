@@ -1,10 +1,9 @@
 "use strict";
-/* globals zit */
-require("jasmine-should-fail");
+
 require("../src/jasmine2-json");
 
 describe("jasmine-json", function () {
-	it("should pass", function () {
+	it("should be equal", function () {
 		var actual = {
 			a: 1,
 			b: "2",
@@ -26,7 +25,7 @@ describe("jasmine-json", function () {
 		expect(actual).toEqualJson(expected);
 	});
 
-	zit("should fail", function () {
+	it("should not be equal", function () {
 		var actual = {
 			a: 1,
 			b: "2",
@@ -45,6 +44,6 @@ describe("jasmine-json", function () {
 			f: { "1": 1 },
 			g: { "key": 2 }
 		};
-		expect(actual).toEqualJson(expected);
+		expect(actual).not.toEqualJson(expected);
 	});
 });
