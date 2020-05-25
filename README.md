@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/UziTech/jasmine2-json.svg?branch=master)](https://travis-ci.org/UziTech/jasmine2-json)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/mw8f1emvmd543jid/branch/master?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-json)
+[![Actions Status](https://github.com/UziTech/jasmine2-json/workflows/CI/badge.svg)](https://github.com/UziTech/jasmine2-json/actions)
 
 # Jasmine 2.x-3.x Json
 
