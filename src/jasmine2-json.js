@@ -81,7 +81,9 @@ require("./polyfills");
 
 	beforeEach(function () {
 		jasmine.addMatchers({
-			toEqualJson: function () {
+			toEqualJson: function (matcherUtils) {
+				var prettyPrint = matcherUtils.pp || jasmine.pp;
+
 				return {
 					compare: function (actual, expected) {
 						var result = {};
@@ -95,7 +97,7 @@ require("./polyfills");
 							var messages = failedPaths.map(function (path) { return failures[path]; });
 							result.message = "JSON is not equal:\n" + messages.join("\n");
 						} else {
-							result.message = "JSON is equal:\n" + jasmine.pp(actual) + "\n" + jasmine.pp(expected);
+							result.message = "JSON is equal:\n" + prettyPrint(actual) + "\n" + prettyPrint(expected);
 						}
 						return result;
 					}
