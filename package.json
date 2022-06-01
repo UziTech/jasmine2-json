@@ -5,7 +5,7 @@
   "repository": "https://github.com/UziTech/jasmine2-json",
   "main": "src/jasmine2-json.js",
   "scripts": {
-    "test": "jasmine ./spec/*-spec.js",
+    "test": "jasmine -v && jasmine ./spec/*-spec.js",
     "lint": "eslint ."
   },
   "keywords": [
